@@ -32,6 +32,38 @@
                 <a class="nav-link" href="/features">Subscribtion</a>
             </li>
         </ul>
+        
+        <style>
+    @keyframes page-load {
+        from {
+            background-color: #ffc422;
+        }
+
+        to {
+            background-color: #c0392b;
+        }
+    }
+
+    .page-loading::before {
+        content: " ";
+        display: block;
+        position: fixed;
+        z-index: 10;
+        height: 2px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: #06D;
+        animation: page-load infinite ease-out 2s;
+        box-shadow: 0 2px 2px rgba(0,0,0,.2);
+    }
+</style>
+<script>
+window.addEventListener("beforeunload", function (e) {
+    document.body.className = "page-loading";
+}, false);
+</script>
+        
         <div class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Documentation
