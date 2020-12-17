@@ -1,0 +1,19 @@
+{
+  "name": "sixcord",
+  "version": "1.0.0",
+  "description": "The Discord bot that has it all - SixCord",
+  "main": "index.html",
+  "scripts": {
+    "dev": "node ./src/js/main.js --development",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zennv/sixcord"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zennv/sixcord"
+  },
+  
+  }
