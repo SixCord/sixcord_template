@@ -9,11 +9,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zennv/sixcord"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zennv/sixcord"
-  },
+  }
   
   }
