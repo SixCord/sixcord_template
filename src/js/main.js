@@ -7,3 +7,12 @@ for(;i<l;i++) {
         body.className = "page-loading";
     },false);
 }
+
+for(;i<l;i++) {
+    links[i].addEventListener("click",function(){
+        body.className = "page-loading";
+        setTimeout(function(){
+            body.className = "";
+        },3000);
+    },false);
+}
