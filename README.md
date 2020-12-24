@@ -13,3 +13,4 @@ These instructions will get you a copy of the project up and running on your loc
 ## Developers
 
 * **Zen** - *Main Developer* - [Zennv](https://github.com/zennv/)
+* **DanDamm1** - *Community Manager* - [DanDamm1](https://github.com/realdandamm1/)
