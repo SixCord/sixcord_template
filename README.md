@@ -7,7 +7,7 @@ This is the official repo for SixCord's website.
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Installing
-1. `git clone https://github.com/zennv/sixcord.git`
+1. `git clone https://github.com/SixCord/sixcord.js.org.git`
 2. `npm i`
 
 ## Developers
