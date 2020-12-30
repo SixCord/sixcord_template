@@ -14,4 +14,4 @@ These instructions will get you a copy of the project up and running on your loc
 
 * **Zen** - *Main Developer* - [Zennv](https://github.com/zennv/)
 * **DanDamm1** - *Community Manager* - [DanDamm1](https://github.com/realdandamm1/)
-* **Jiron** - *Developer* - [Jiron](https://github.com/JironDiscord)
+* **Jiron** - *Developer* - [Jiron](https://github.com/Jiron)
