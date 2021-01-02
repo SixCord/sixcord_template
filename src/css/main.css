@@ -273,4 +273,26 @@ color: rgba(255, 255, 255, 0.46) !important
 #cookieConsent a.cookieConsentOK:hover {
     background-color: #E0C91F;
 }
-/*Cookie Consent End*/
+
+margin: 0px;
+                padding: 0px;
+                background-color: #EBEBEB;
+                border-bottom: 1px solid #e8e8e8;
+            }
+
+            #topBar {
+                height: 25px;
+                padding: 7px;
+                padding-left: 15px;
+                background-color: #F1F1F1;
+            }
+
+            #socialCodingButtons {
+                float: right;
+            }
+
+            #ajaxContent {
+                width: 800px;
+                margin: auto;
+                margin-top: 15px;
+            }
