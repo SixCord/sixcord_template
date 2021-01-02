@@ -25,10 +25,13 @@
     <link rel="stylesheet" href="src/css/bootstrap.min.css">
     <link rel="stylesheet" href="src/css/main.css">
     <link rel="stylesheet" href="src/css/now-ui-kit.css">
+    <link href="ytLoad.jquery.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
     
+    <script src="/path/to/jquery.transit.js"></script>
+    <script src="/path/to/jquery.ytLoad.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KJYWYD7Z22"></script>
 <script>
@@ -62,36 +65,6 @@
             </li>
         </ul>
         
-        <style>
-    @keyframes page-load {
-        from {
-            background-color: #ffc422;
-        }
-
-        to {
-            background-color: #c0392b;
-        }
-    }
-
-    .page-loading::before {
-        content: " ";
-        display: block;
-        position: fixed;
-        z-index: 10;
-        height: 2px;
-        width: 100%;
-        top: 0;
-        left: 0;
-        background-color: #06D;
-        animation: page-load infinite ease-out 2s;
-        box-shadow: 0 2px 2px rgba(0,0,0,.2);
-    }
-</style>
-<script>
-window.addEventListener("beforeunload", function (e) {
-    document.body.className = "page-loading";
-}, false);
-</script>
         
         <div class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -110,7 +83,9 @@ window.addEventListener("beforeunload", function (e) {
         <button class="btn login-btn btn-outline-accent my-2 my-sm-0" style="font-size: 10px !important;font-family: poppins !important;">LOGIN</button>
     </div>
 </nav>
-<div class="heading">
+    
+    
+    <div class="heading">
     <h1 class="display-5 title">Build the best Discord server.</h1>
     <p class="subtitle">The Discord that has it all. SixCord now also provides free music feature & costumizable rank cards.</p>
     <a class="btn btn-primary btn-lg" href="#start_link" target="_blank" role="button">Get started</a>
