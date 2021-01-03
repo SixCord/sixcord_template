@@ -1,69 +1,21 @@
- $(document).ready(function() {
-                var examples = {
-                    basic: function() {
-                        $.ytLoad();
-                    },
+var links = document.getElementsByTagName("a"),
+i = 0, l = links.length,
+body = document.body;
 
-                    manual: function() {
-                        $.ytLoad({
-                            registerAjaxHandlers: false
-                        });
-                        $.ytLoad('start');
-                        $.ytLoad('complete');
-                        $.ytLoad('error');
-                    },
+for(;i<l;i++) {
+    links[i].addEventListener("click",function(){
+        body.className = "page-loading";
+    },false);
+}
 
-                    customDurations: function() {
-                        $.ytLoad({
-                            startPercentage: 50,
-                            startDuration: 2000,
-                            completeDuration: 500,
-                            fadeDelay: 2000,
-                            fadeDuration: 2000
-                        });
-                    },
-
-                    setProgress: function() {
-                        $.ytLoad({
-                            registerAjaxHandlers: false
-                        });
-
-                        $.ytLoad('progress', 50);
-                        alert($.ytLoad('progress'));
-                        $.ytLoad('progress', 100);
-                    },
-
-                    callbacks: function() {
-                        $.ytLoad({
-                            onStart: function() {
-                                alert('Started!');
-                            },
-                            onComplete: function() {
-                                alert('Complete!');
-                            }
-                        });
-                    },
-
-                    multipleRequests: function() {
-                        $.ytLoad();
-
-                        for(i=0; i < 2000; i++) {
-                            $('#ajaxContent').load('ajax.html');
-                        }
-                    }
-                };
-
-                $('#loadButton').click(function(){
-                    $('#ajaxContent').load('ajax.html');
-                });
-
-                $('#usageType').change(function() {
-                    $.ytLoad('destroy');
-                    examples[$(this).val()]();
-                });
-
-                examples.basic();
-            });
+for(;i<l;i++) {
+    links[i].addEventListener("click",function(){
+        body.className = "page-loading";
+        setTimeout(function(){
+            body.className = "";
+        },3000);
+    },false);
+}
 
 $(document).ready(function(){   
     setTimeout(function () {
