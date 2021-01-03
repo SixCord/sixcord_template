@@ -5,7 +5,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    border-top: 6px #AD91FF solid !important;
     font-size: 16px;
 }
 
