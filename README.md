@@ -1,4 +1,4 @@
-# SixCord's Web
+# [SixCord's Web](https://sixcord.xyz/)
 
 This is the official repo for SixCord's website.
 
@@ -7,7 +7,7 @@ This is the official repo for SixCord's website.
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Installing
-1. `git clone https://github.com/SixCord/sixcord-web.git`
+1. `git clone https://github.com/SixCord/sixcord.xyz.git`
 2. `npm i`
 
 ## Developers
