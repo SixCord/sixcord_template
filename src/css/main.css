@@ -227,7 +227,8 @@ color: rgba(255, 255, 255, 0.46) !important
     animation: page-load ease-out 2s;
 }
 
-/* width */
+
+/* scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
