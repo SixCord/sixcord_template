@@ -223,27 +223,10 @@ color: rgba(255, 255, 255, 0.46) !important
     width:100%;
     top:0;
     left:0;
-    background-color:#06D;
+    background-color:#AD91FF;
     animation: page-load ease-out 2s;
 }
 
-
-/* scrollbar */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #AD91FF; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+.page-loading::after {
+    background-color:#23272a;
 }
