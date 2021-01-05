@@ -11,7 +11,6 @@ body, html {
      font-size: 14px !important;
      background: transparent !important;
      font-family: Lato, sans-serif !important;
-     text-transform: capitalize !important;
  }
  .nav-link:hover {
      background: transparent !important;
