@@ -292,3 +292,24 @@ section.pricing {
     opacity: 1;
   }
 }
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #AD91FF #23272a;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 11px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #23272a;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #AD91FF;
+    border-radius: 20px;
+    border: 3px solid #23272a;
+  }
