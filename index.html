@@ -106,12 +106,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
 </nav>
 <div class="heading">
-        <img src="https://media.discordapp.net/attachments/792141435569700958/794711174410403850/unknown.png" align="right"> 
-    <h1 class="display-5 title">Build the best Discord server.</h1>
-    <p class="subtitle">The Discord that has it all. SixCord now also provides free music feature & costumizable rank cards.</p>
-    <a class="btn btn-primary btn-lg" href="/invite" target="_blank" role="button">Invite to Discord</a>
-    <a class="btn btn-secondary btn-lg" href="/premium" target="_blank" role="button">Premium</a>
+
+        <div id="banner"></div>
+    <div id="title"></div>
+    <div id="subtitle"></div>
+    <div id="invite"></div>
+    <div id="premium"></div>
+
     <br /><br /><br /><br /><br />
+    
+    <script type="text/babel">
+    const banner = <img src="https://media.discordapp.net/attachments/792141435569700958/794711174410403850/unknown.png" align="right"></img> 
+    ReactDOM.render(banner, document.getElementById('banner'));
+
+    const title = <h1 class="display-5 title">Build the best Discord server.</h1>;
+    ReactDOM.render(title, document.getElementById('title'));
+
+    const subtitle = <p class="subtitle">The Discord bot that has it all. SixCord now also provides free music feature and costumizable rank card.</p>;
+    ReactDOM.render(subtitle, document.getElementById('subtitle'));
+
+    const invite = <a class="btn btn-primary btn-lg" href="/invite" target="_blank" role="button">Invite to Discord</a>
+    ReactDOM.render(invite, document.getElementById('invite'));
+
+    const premium = <a class="btn btn-secondary btn-lg" href="/premium" target="_blank" role="button">Premium</a>
+    ReactDOM.render(premium, document.getElementById('premium'));
+</script>
     
     <style>
         body {
