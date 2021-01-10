@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif !important;
-    background-color: #23272a;
+    background-color: #7289da;
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -52,9 +52,8 @@ body {
     background-color: #2C2F33 !important
 }
 .heading {
-    padding: 160px 50px !important;
+    padding: 80px 50px !important;
     color: #fff !important;
-    background-image: url("") !important;
     background-position: bottom !important;
     background-size: 300% !important;
     background-repeat: no-repeat !important;
@@ -70,50 +69,6 @@ body {
     color: rgba(255, 255, 255, 0.685) !important;
     font-size: 16px !important;
     font-family: 'Lato', sans-serif;
-}
-
-
-.features {
-    text-align: center !important;
-    background: #23272a !important;
-    padding: 60px 50px !important;
-    background-image: url("../assets/wavy-dark-by-nouridio.svg") !important;
-    background-position: bottom !important;
-    background-size: 200% !important;
-    background-repeat: no-repeat !important;
-}
-.features .title {
-    text-align: center !important;
-    font-size: 40px !important;
-    color: #ffffff !important;
-    line-height: 70px !important;
-}
-
-.features .subtitle {
-    font-size: 20px !important;
-    color: #a2a8bd;
-}
-
-.features .card-body {
-    text-align: left !important;
-}
-
-.features .card-title {
-    margin: 0 0 -3px !important;
-}
-.cards {
-    margin-top: 30px !important;
-}
-
-.card {
-    border-radius: 5px !important;
-    box-shadow: none !important;
-}
-
-.card-title {
-    font-size: 28px !important;
-    font-weight: 600 !important;
-    color: #AD91FF !important;
 }
 
 .statistics {
@@ -205,98 +160,10 @@ color: rgba(255, 255, 255, 0.46) !important
     color: #a2a8bd !important
 }
 
-@keyframes page-load {
-    from {
-        width:0;
-    }
-    to {
-        width:100%;
-    }
-}
-.page-loading::before {
-    content:" ";
-    display:block;
-    position:fixed;
-    z-index:10;
-    height:2px;
-    width:100%;
-    top:0;
-    left:0;
-    background-color:#AD91FF;
-    animation: page-load ease-out 2s;
-}
-
-.page-loading::after {
-    background-color:#23272a;
-}
-
-section.pricing {
-  background: #007bff;
-  background: linear-gradient(to right, #0062E6, #33AEFF);
-}
-
-.pricing .card {
-  border: none;
-  border-radius: 1rem;
-  transition: all 0.2s;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-}
-
-.pricing hr {
-  margin: 1.5rem 0;
-}
-
-.pricing .card-title {
-  margin: 0.5rem 0;
-  font-size: 0.9rem;
-  letter-spacing: .1rem;
-  font-weight: bold;
-}
-
-.pricing .card-price {
-  font-size: 3rem;
-  margin: 0;
-}
-
-.pricing .card-price .period {
-  font-size: 0.8rem;
-}
-
-.pricing ul li {
-  margin-bottom: 1rem;
-}
-
-.pricing .text-muted {
-  opacity: 0.7;
-}
-
-.pricing .btn {
-  font-size: 80%;
-  border-radius: 5rem;
-  letter-spacing: .1rem;
-  font-weight: bold;
-  padding: 1rem;
-  opacity: 0.7;
-  transition: all 0.2s;
-}
-
-/* Hover Effects on Card */
-
-@media (min-width: 992px) {
-  .pricing .card:hover {
-    margin-top: -.25rem;
-    margin-bottom: .25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-  }
-  .pricing .card:hover .btn {
-    opacity: 1;
-  }
-}
-
 /* Works on Firefox */
 * {
     scrollbar-width: thin;
-    scrollbar-color: #AD91FF #23272a;
+    scrollbar-color: #AD91FF transparent;
   }
   
   /* Works on Chrome, Edge, and Safari */
@@ -305,11 +172,12 @@ section.pricing {
   }
   
   *::-webkit-scrollbar-track {
-    background: #23272a;
+    background: transparent;
   }
   
   *::-webkit-scrollbar-thumb {
     background-color: #AD91FF;
     border-radius: 20px;
-    border: 3px solid #23272a;
+    border: 3px solid transparent;
   }
+
