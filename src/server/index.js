@@ -2,10 +2,6 @@ const express = require('express');
 const app = express();
 const port = 8080
 
-app.listen(port, () => {
-  console.log(`Listening at http://localhost:${port}`)
-})
-
 app.use(express.static('src'));
 
 app.get('/', function(req, res) {
@@ -26,3 +22,7 @@ app.get('/status', function(req, res) {
 app.get('/privacy', function(req, res) {
     res.sendFile(__dirname + '/src/app/pages/privacy.html')
 });
+
+app.listen(port, () => {
+  console.log(`Listening at http://localhost:${port}`)
+})
