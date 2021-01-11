@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>SixCord &mdash; The Discord Bot</title>
+
+    <meta name="title" content="SixCord - The Discord Bot"/>
+    <meta name="description" content="Build the best Discord server with SixCord. Leveling, auto-moderation & more features."/>
+    <meta name="keywords" content="sixcord, sixcord discord bot, sixcord bot, sixcord web, sixcord dashboard, website, sites"/>
+    <meta name="theme-color" content="#7289DA"/>
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@sixcordbot"/>
+    <meta name="twitter:creator" content="@sixcordbot"/>
+    <meta name="twitter:title" content="SixCord - The Discord Bot"/>
+    <meta name="twitter:description" content="Build the best Discord server with SixCord. Leveling, auto-moderation & more features."/> 
+    
+    <meta prefix="og: http://ogp.me/ns#" property="og:title" content="SixCord - The Discord Bot"/>
+    <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website"/>
+    <meta prefix="og: http://ogp.me/ns#" property="og:locale" content="en"/>
+    <meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="SixCord - The Discord Bot"/>
+    <meta prefix="og: http://ogp.me/ns#" property="og:description" content="Build the best Discord server with SixCord. Leveling, auto-moderation & more features."/>
+    <link rel="icon" type="image/png" href="https://media.discordapp.net/attachments/792141435569700958/794723297581465630/sixcord.png"/>
+
+         <link rel="stylesheet" href="css/main.css">
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+         <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/now-ui-kit.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script src="js/react.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NTMXM94');</script>
+<!-- End Google Tag Manager -->
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQ36C2Z2K4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQ36C2Z2K4');
+</script>
+</head>
+    
+<body>
+
+<nav class="navbar navbar-expand-lg bg-transparent">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="assets/menuIcon.svg" width="20px" height="20px" style="max-width: none !important;">
+    </button>
+    <img src="https://media.discordapp.net/attachments/792141435569700958/794723297581465630/sixcord.png" width="50" height="50">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/premium">Premium</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/support">Support Server</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/status">Bot Status</a>
+            </li>
+        </ul>
+        
+        <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Documentation
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/commands">Commands</a>
+                <a class="dropdown-item" href="/tutorials">Documentation</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/server-settings">Server settings</a>
+            </div>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link" href="/invite">Invite to Discord</a>
+        </div>
+        <button class="btn login-btn btn-outline-accent my-2 my-sm-0" style="font-size: 10px !important;font-family: poppins !important;">Dashboard</button>
+    </div>
+</nav>
+
+<div class="wrapper">
+<div class=header-theme>
+    <div class="heading">
+        <img src="https://media.discordapp.net/attachments/797562924817317922/797631660538855504/unknown.png" align="right"> 
+    <h1 class="display-5 title">Build the best Discord server.</h1>
+    <p class="subtitle">The Discord bot that has it all. SixCord now also provides free music feature & costumizable rank cards.</p>
+    <a class="btn btn-primary btn-lg" href="/invite" target="_blank" role="button">Invite to Discord</a>
+    <a class="btn btn-secondary btn-lg" href="/premium" target="_blank" role="button">Premium</a>
+</div>
+    <style>
+        body{ background-color: #23272a}
+        .header-theme { background-color: #23272a; color: #ffffff}
+        .white-theme { background-color: #7289da; color: #ffffff;}
+        .wrapper { background-color: #23272a}
+    </style>
+
+</div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#7289da" fill-opacity="1" d="M0,64L48,85.3C96,107,192,149,288,176C384,203,480,213,576,197.3C672,181,768,139,864,133.3C960,128,1056,160,1152,176C1248,192,1344,192,1392,192L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+<style>
+    .row text-center { align-items: center;}
+</style>
+    <div class="heading-2">
+ <div class="white-theme">
+     <center>
+    <div class="row text-center">
+        <div class="col-sm-3">
+            <div class="d">
+              <div class="d">
+              </div>
+            </div>
+          </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <i class="fa fa-bolt" style="font-size:65px"></i><br /><br />
+            <b><span class="sixcord-title">Stable</span></b><br /> SixCord services are 24/7 active, no downtimes.
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <i class="fa fa-cogs" style="font-size:65px"></i><br /><br />
+            <b><span class="sixcord-title">Moderation</span></b><br /> Moderation feature that prevents nukes, logs & much more, fully configurable.
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <i class="fa fa-music" style="font-size:65px"></i><br /><br />
+            <b><span class="sixcord-title">Music</span></b><br /> SixCord offers music feature. for free! What are you waiting for?
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#7289da" fill-opacity="1" d="M0,288L48,277.3C96,267,192,245,288,250.7C384,256,480,288,576,282.7C672,277,768,235,864,208C960,181,1056,171,1152,181.3C1248,192,1344,224,1392,240L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>      <style>
+#card {
+  font-size:80px;
+  color:#7495e6;
+}
+
+.card {
+  background: transparent !important;
+}
+
+.sixcord-title {
+    font-size:24px !important;
+    margin-bottom: -2px !important;
+}
+      </style>
+<div class="statistics">
+  <div class="cards">
+      <div class="card statistic" style="width: 18rem;">
+          <div class="card-body servers">
+          </div>
+      </div>
+      <div class="card statistic" style="width: 18rem;">
+          <div class="card-body users">
+          </div>
+      </div>
+      <div class="card statistic" style="width: 18rem;">
+          <div class="card-body channels">
+          </div>
+      </div>
+  </div>
+</div>
+<div class="page_end">
+    <div class="start">
+        <div class="card">
+            <div class="card-body gs-card">
+                <div id="sixcordtitle"></div>
+                <div id="sixcordsubtitle"></div>
+                <br />
+                <div id="sixcordbutton"></div>
+            </div><br />
+        </div>
+    </div> </div>
+
+    <script type="text/babel">
+
+    const sixcordtitle = <div class="title">Ready to build the best Discord server with SixCord?</div>
+    ReactDOM.render(sixcordtitle, document.getElementById('sixcordtitle'));
+
+    const sixcordsubtitle = <div class="sixcordsubtitle">Invite SixCord and start giving your server cool perks!</div>
+    ReactDOM.render(sixcordsubtitle, document.getElementById('sixcordsubtitle'));
+
+    const sixcordbutton = <a class="btn btn-primary btn-lg" href="/invite" target="_blank" role="button">Invite to Discord</a>
+    ReactDOM.render(sixcordbutton, document.getElementById('sixcordbutton'));
+    
+    </script>
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">SixCord &mdash; The Discord bot that has it all.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>SixCord</h6>
+            <ul class="footer-links">
+              <li><a href="/commands">Commands</a></li>
+              <li><a href="/status">Status</a></li>
+              <li><a href="/privacy">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 - <script>document.write(new Date().getFullYear())</script> SixCord</p>
+          </div> </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/now-ui-kit.min.js"></script>
+<script src="js/react.js"></script>
+</body>
+
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $({property: 0}).animate({property: 105}, {
+        duration: 1200,
+        step: function() {
+          var _percent = Math.round(this.property);
+          $("#progress").css("width",  _percent+"%");
+          if(_percent == 105) {
+            $("#progress").addClass("done");
+          }
+        }
+      });
+    });
+  </script>
+
+  </head>
+  <body>
+    <div id="progress"></div>
+  </body>
+
+  <script type="text/babel">
+
+    const progress = <div id="progress" class="waiting"></div>
+    ReactDOM.render(progress, document.getElementById('progress'));
+    </script>
+</html>
