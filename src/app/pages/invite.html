@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>SixCord &mdash; The Discord Bot</title>
+
+    <meta name="title" content="SixCord - The Discord Bot"/>
+    <meta name="description" content="Build the best Discord server with SixCord. Leveling, auto-moderation & more features."/>
+    <meta name="keywords" content="sixcord, sixcord discord bot, sixcord bot, sixcord web, sixcord dashboard, website, sites"/>
+    <meta name="theme-color" content="#7289DA"/>
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@sixcordbot"/>
+    <meta name="twitter:creator" content="@sixcordbot"/>
+    <meta name="twitter:title" content="SixCord - The Discord Bot"/>
+    <meta name="twitter:description" content="Build the best Discord server with SixCord. Leveling, auto-moderation & more features."/> 
+    
+    <meta prefix="og: http://ogp.me/ns#" property="og:title" content="SixCord - The Discord Bot"/>
+    <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website"/>
+    <meta prefix="og: http://ogp.me/ns#" property="og:locale" content="en"/>
+    <meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="SixCord - The Discord Bot"/>
+    <meta prefix="og: http://ogp.me/ns#" property="og:description" content="Build the best Discord server with SixCord. Leveling, auto-moderation & more features."/>
+    <link rel="icon" type="image/png" href="https://media.discordapp.net/attachments/792141435569700958/794723297581465630/sixcord.png"/>
+
+         <link rel="stylesheet" href="src/app/assets/css/main.css">
+         <link rel="stylesheet" href="src/app/assets/css/bootstrap.min.css">
+         <link rel="stylesheet" href="src/app/assets/css/theme.css">
+         <link rel="stylesheet" href="src/app/assets/css/footer.css">
+         <link rel="stylesheet" href="src/app/assets/css/now-ui-kit.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQ36C2Z2K4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQ36C2Z2K4');
+</script>
+</head>
+  
+    <body>
+<nav class="navbar navbar-expand-lg bg-transparent">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="assets/menuIcon.svg" width="20px" height="20px" style="max-width: none !important;">
+    </button>
+    <img src="https://media.discordapp.net/attachments/792141435569700958/794723297581465630/sixcord.png" width="50" height="50">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/premium">Premium</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/support">Support Server</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/status">Bot Status</a>
+            </li>
+        </ul>
+        
+        <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Documentation
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/commands">Commands</a>
+                <a class="dropdown-item" href="/tutorials">Documentation</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/server-settings">Server settings</a>
+            </div>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link" href="/invite">Invite to Discord</a>
+        </div>
+        <button class="btn login-btn btn-outline-accent my-2 my-sm-0" style="font-size: 10px !important;font-family: poppins !important;">Dashboard</button>
+    </div>
+</nav>
+  <head>
+      <meta http-equiv = "refresh" content = "2; url = https://discord.com/oauth2/authorize?client_id=788801745752293386&permissions=485846102&scope=bot" />
+        </head> </body>
+
+        <body>
+          <h1> Loading... </h1>
+          <div id="progress"></div>
+        </body>
+      
+        <script type="text/babel">
+      
+          const progress = <div id="progress" class="waiting"></div>
+          ReactDOM.render(progress, document.getElementById('progress'));
+          </script>
+          <br> <br>
+        <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">SixCord &mdash; The Discord bot that has it all.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>SixCord</h6>
+            <ul class="footer-links">
+              <li><a href="/commands">Commands</a></li>
+              <li><a href="/status">Status</a></li>
+              <li><a href="/privacy">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 - <script>document.write(new Date().getFullYear())</script> SixCord</p>
+          </div>
+</footer>
+</html>
