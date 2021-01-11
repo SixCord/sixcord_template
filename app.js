@@ -10,14 +10,14 @@ app.get('/premium', function(req, res) {
     res.redirect('/')
 });
 app.get('/support', function(req, res) {
-    res.sendFile(__dirname + '/src/app/support.html')
+    res.sendFile(__dirname + '/src/app/pages/support.html')
 });
 app.get('/invite', function(req, res) {
-    res.sendFile(__dirname + '/src/app/invite.html')
+    res.sendFile(__dirname + '/src/app/pages/invite.html')
 });
 app.get('/status', function(req, res) {
     res.redirect('/')
 });
 app.get('/privacy', function(req, res) {
-    res.sendFile(__dirname + '/src/app/privacy.html')
+    res.sendFile(__dirname + '/src/app/pages/privacy.html')
 });
