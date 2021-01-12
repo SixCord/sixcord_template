@@ -1,14 +1,19 @@
 {
-  "name": "sixcord",
-  "version": "1.0.0",
-  "description": "The Discord bot that has it all - SixCord",
-  "main": "index.html",
+  "name": "sixcord.xyz",
+  "description": "SixCord's website - The Discord bot that has it all.",
+  "version": "2.0.0",
   "scripts": {
-    "dev": "node ./src/js/main.js --development",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SixCord/sixcord.js.org"
-  }
-  
-  }
+    "url": "https://github.com/SixCord/sixcord.xyz.git"
+  },
+  "keywords": []
+  "author": "SixCord",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SixCord/sixcord.xyz/issues"
+  },
+  "homepage": "https://github.com/SixCord/sixcord.xyz"
+}
