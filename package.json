@@ -3,7 +3,8 @@
   "description": "SixCord's website - The Discord bot that has it all.",
   "version": "2.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SixCord/sixcord.xyz/issues"
   },
-  "homepage": "https://github.com/SixCord/sixcord.xyz"
+  "homepage": "https://github.com/SixCord/sixcord.xyz",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
