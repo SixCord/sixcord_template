@@ -2,9 +2,9 @@
   "name": "sixcord.xyz",
   "version": "2.0.0",
   "description": "SixCord's website - The Discord bot that has it all.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
   },
   "dependencies": {
     "express": "^4.17.1",
